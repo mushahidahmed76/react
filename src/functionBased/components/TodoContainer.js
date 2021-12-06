@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TodosList from "./TodosList";
 import Header from "./Header"
-import About from "./About"
-import NotMatch from "./NotMatch"
-
+import "./../App.css"
 import InputTodo from "./InputTodo"
 import { v4 as uuidv4 } from "uuid";
 
